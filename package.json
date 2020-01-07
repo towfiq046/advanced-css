@@ -1,0 +1,22 @@
+{
+  "name": "advanced-css",
+  "version": "1.0.0",
+  "description": "Udemy course",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towfiq046/advanced-css.git"
+  },
+  "author": "towfiq046",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/towfiq046/advanced-css/issues"
+  },
+  "homepage": "https://github.com/towfiq046/advanced-css#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

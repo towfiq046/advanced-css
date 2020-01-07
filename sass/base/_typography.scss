@@ -1,0 +1,56 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: $font-regular;
+    // font-size: 16px;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+}
+
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: $font-regular;
+        letter-spacing: 3.5rem;
+
+        animation: move_in_left 1s ease-out;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: $font-bold;
+        letter-spacing: 1.75rem;
+        text-align: left;
+
+        animation: move_in_right 1s ease-out;
+    }
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: $font-bold;
+    letter-spacing: 2px;
+}
+
+.heading-third {
+    font-size: $default-font-size;
+    font-weight: $font-bold;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
